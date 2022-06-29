@@ -5,32 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h3 {
-            background-color: white;
-        }
-
-        h3:hover {
-            background-color: blueviolet;
-        }
-
-        .parents > .childtwo > h3 + div { 
-            color: blueviolet;
-            border: 1px dotted black;
-            background-color: gainsboro;
-            margin: 5px;
-        }
-
-        button {
-            font-size: 40px;
-            border: 1px solid red;
-            /* border-radius: 10px 20px 30px 40px; */
-            border-radius: 10px 20px; /*대각선*/
-        }
-    </style>
+    <link rel="stylesheet" href="./css/selectors_pseudo_style.css">
 </head>
 <body>
-    <button>Round</button>
+    <button>Round <span>span Effect</span><div>div Effect</div></button>
+    <div>
+        <span>first span</span>
+        <span class="span-second">second span</span>
+        <span class="span-third">third span</span>
+        <span class="span-fourth">fourth span</span>
+    </div>
     <div class="parents">
         <h3>Start Parents</h3>
         <div class="childone">
