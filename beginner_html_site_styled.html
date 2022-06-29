@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
-    <!-- web font -->
+    <!-- web font 가장 상단에 넣는 것이 좋다. -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/beginner_html_site_styled.css">
   </head>
   <body>
     <h1>Mozilla is cool</h1>
@@ -13,10 +14,19 @@
 
     <p>At Mozilla, we’re a global community of</p>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
+    <ul class="ul-none"> <!-- changed to list in the tutorial -->
+      <li>
+        <span class="material-symbols-outlined">arrow_circle_right</span>
+        technologists
+      </li>
+      <li>
+        <span class="material-symbols-outlined">arrow_circle_right</span>
+        thinkers
+      </li>
+      <li>
+        <span class="material-symbols-outlined">arrow_circle_right</span>
+        builders
+      </li>
     </ul>
 
     <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
