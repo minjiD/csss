@@ -1,0 +1,21 @@
+.container > div {
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid greenyellow;
+}
+
+@media all and (max-width: 400px) {
+    .third {
+        visibility: hidden;
+    }
+}
+
+/* 500px~600px 사이일 때 */
+@media all and (max-width: 600px) and (min-width: 500px) {
+    .second {
+        visibility: hidden;
+    }
+    .fourth {
+        visibility: hidden;
+    }
+}

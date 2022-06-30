@@ -1,0 +1,51 @@
+/* 전체 적용할 부분 설정하고 시작해야함 */
+* {
+    font-size: 12px;
+    margin: 2px;
+    padding: 0;
+    height: 100%;
+}
+
+/* 태그 영역 확인
+.menu * {
+    border: 0.1rem solid gray;
+}
+*/
+
+/* 가장 상위 flex container */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    background-color: chocolate;
+}
+
+/* 중간 container */
+.menu-right {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.menu-right > li {
+    list-style-type: none;
+}
+
+.main {
+    background-color: burlywood;
+}
+
+.footer {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 영역 확인 */
+.container * {
+    border: 0.1rem solid gainsboro;
+}

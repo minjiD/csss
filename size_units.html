@@ -8,27 +8,34 @@
     <link rel="stylesheet" href="./css/size_units.css">
 </head>
 <body>
+    <div class="vw-class">viewport</div>
     <div class="px-class">
         px
         <div>sub px</div>
     </div>
     <hr>
+    <!-- REST(중첩) 방식 -->
     <div class="rem-class">
         rem
-        <div>sub rem</div>
-    </div>
-    <hr>
-    <div class="em-class">
-        em
-        <div>
-            sub em
-            <div>child em</div>
+        <div class="rem-class">
+            sub rem
+            <div class="rem-class">child rem</div>
         </div>
     </div>
     <hr>
+    <!-- 상위의 값을 상속받아서... -->
+    <div class="em-class">
+        em
+        <div class="em-class">
+            sub em
+            <div class="em-class">child em</div>
+        </div>
+    </div>
+    <hr>
+    <!-- 브라우저가 가지고 있는 기본 값을 가져와서 사용 -->
     <div class="percent-class">
         percent
-        <div>sub percent</div>
+        <div class="percent-class">sub percent</div>
     </div>
 </body>
 </html>

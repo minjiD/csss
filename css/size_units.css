@@ -1,7 +1,14 @@
 * { /*모든 태그를 여기에 맞춰서 시작*/
-    font-size: 10px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
+}
+
+.vw-class {
+    background-color: brown;
+    /* 디바이스의 원래 픽셀에 상관 없이 적용됨, 비율같은 느낌? */
+    width: 50vw; 
+    height: 60vh;
 }
 
 .px-class {
@@ -9,13 +16,13 @@
 }
 
 .rem-class {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .em-class {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .persent-class {
-    font-size: 100;
+    font-size: 120%;
 }
